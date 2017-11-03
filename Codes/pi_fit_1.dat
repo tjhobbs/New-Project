@@ -1,0 +1,33 @@
+  MINUIT RELEASE 90.10  INITIALIZED.   DIMENSIONS 350/350  EPSMAC=  0.89E-15
+
+ PARAMETER DEFINITIONS:
+    NO.   NAME         VALUE      STEP SIZE      LIMITS
+     1 'pmS       '   0.40000      0.30000E-01     no limits
+     2 'pLAM      '   0.70000      0.30000E-01     no limits
+ **********
+ **    1 **SIMPLEX  0.1000E+06
+ **********
+
+ FIRST CALL TO USER FUNCTION AT NEW START POINT, WITH IFLAG=4.
+ START SIMPLEX MINIMIZATION.    CONVERGENCE WHEN EDM .LT.  0.10E+00
+
+ FCN=   1.308417     FROM SIMPLEX   STATUS=PROGRESS       5 CALLS        6 TOTAL
+                     EDM=  0.57E+00    STRATEGY= 1      NO ERROR MATRIX       
+
+  EXT PARAMETER               CURRENT GUESS      PHYSICAL LIMITS       
+  NO.   NAME        VALUE          ERROR       NEGATIVE      POSITIVE  
+   1     pmS       0.52000       0.30000E-01
+   2     pLAM      0.73000       0.30000E-01
+ SIMPLEX MINIMIZATION HAS CONVERGED.
+
+ FCN=   1.252591     FROM SIMPLEX   STATUS=PROGRESS      10 CALLS       11 TOTAL
+                     EDM=  0.56E-01    STRATEGY= 1      NO ERROR MATRIX       
+
+  EXT PARAMETER               CURRENT GUESS      PHYSICAL LIMITS       
+  NO.   NAME        VALUE          ERROR       NEGATIVE      POSITIVE  
+   1     pmS       0.61000       0.30000E-01
+   2     pLAM      0.77875       0.30000E-01
+ **********
+ **    2 **SET OUTPUTFILE   9.000    
+ **********
+  MINUIT PRIMARY OUTPUT TO UNIT   9
